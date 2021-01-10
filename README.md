@@ -1,3 +1,4 @@
+
 # **Rovelli**
 **Rovelli** is a free GUI tool for generating an overview of the current year and also a progress bar that visualizes this overview. This application supports the [Gregorian](https://en.wikipedia.org/wiki/Gregorian_calendar) and [Jalali](https://en.wikipedia.org/wiki/Jalali_calendar) calendars.
 The name of the application is derived from the famous Italian physicist **[Carlo Rovelli](https://en.wikipedia.org/wiki/Carlo_Rovelli)**, which in his theory, time is an illusion.
@@ -7,6 +8,7 @@ Just clone the repository on your local system and run it.
 
     git clone https://github.com/ArefDev/Rovelli.git
     cd Rovelli
+    pip install -r requirements
     python3 rovelli.py
 
 As you run the application, you’ll see the following window, you can simply play with the different options to generate your favorable progress bar.
