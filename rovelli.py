@@ -69,7 +69,7 @@ def generate(dialog, self):
         length = self.length_spinBox.value()
     else:
         passed_char, remaining_char = get_chars(dialog, self)
-        length = 15
+        length = 10
     calendar_type = self.calendar_type_comboBox.currentText()
     if calendar_type == 'Gregorian':
         current_date = datetime.datetime.now()
